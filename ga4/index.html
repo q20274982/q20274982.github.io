@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <title>GA / GTM 電子商務網站追蹤練習</title>
+  <!-- SEO Meta Tags-->
+  <meta name="description" content="GA / GTM 電子商務網站追蹤練習">
+
+  <!-- Mobile Specific Meta Tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- Vendor Styles including: Bootstrap, Font Icons, Plugins, etc.-->
+  <link rel="stylesheet" media="screen" href="css/vendor.min.css">
+  <!-- Main Template Styles-->
+  <link id="mainStyles" rel="stylesheet" media="screen" href="css/styles.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- 按照 GTM 追蹤碼文件建議，在 <head> 區塊內的最後，插入 GTM 追蹤代碼 [在本行下方插入 GTM 追蹤代碼] -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5X8GN88');</script>
+  <!-- End Google Tag Manager -->
+  <!-- [在本行上方插入 GTM 追蹤代碼] -->
+</head>
+<!-- Body-->
+
+<body>
+  <!-- 按照 GTM 追蹤碼文件建議，在 <body> 區塊內的開頭， 插入另一段 GTM 追蹤代碼 [在本行以下插入 GTM 追蹤代碼] -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X8GN88" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- [在本行以上插入 GTM 追蹤代碼] -->
+
+  <!-- 功能選單及工具列 start -->
+  <header class="navbar navbar-sticky">
+    <!-- Site Branding-->
+    <div class="site-branding">
+      <a class="site-logo hidden-xs-down">
+        <img src="img/RedBlackText-BSlogo.png" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+        <small style="color: red;">練習使用</small>
+      </a>
+      <a class="site-logo logo-sm hidden-sm-up">
+        <img src="img/RedBlackText-BSlogo.png" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+        <small style="color: red;">練習使用</small>
+      </a>
+    </div>
+    <!-- Main Navigation-->
+    <nav class="site-menu">
+      <ul>
+        <li><a href="/"><span>最新活動</span></a>
+          <ul class="sub-menu">
+            <li><a href="/">最新活動一</a></li>
+            <li><a href="/">最新活動二</a></li>
+            <li><a href="/">最新活動三</a></li>
+            <li><a href="/">最新活動四 </a></li>
+          </ul>
+        </li>
+        <li><a href="/"><span>優惠活動</span></a>
+          <ul class="sub-menu">
+            <li><a href="/">優惠活動一</a></li>
+            <li><a href="/">優惠活動二</a></li>
+            <li><a href="/">優惠活動三</a></li>
+            <li><a href="/">優惠活動四 </a></li>
+          </ul>
+        </li>
+        <li><a href="/"><span>全部商品</span></a>
+          <ul class="sub-menu">
+            <li><a href="/">商品分類一</a></li>
+            <li><a href="/">商品分類二</a></li>
+            <li><a href="/">商品分類三</a></li>
+            <li><a href="/">商品分類四 </a></li>
+          </ul>
+        </li>
+        <li><a href="/"><span>新品專區</span></a>
+          <ul class="sub-menu">
+            <li><a href="/">新品專區一</a></li>
+            <li><a href="/">新品專區二</a></li>
+            <li><a href="/">新品專區三</a></li>
+            <li><a href="/">新品專區四 </a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- Toolbar-->
+    <div class="toolbar">
+      <div class="inner">
+        <a class="toolbar-toggle mobile-menu-toggle" href="#mobileMenu">
+          <i class="material-icons menu"></i>
+        </a>
+        <a class="toolbar-toggle search-toggle" href="#search">
+          <i class="material-icons search"></i>
+        </a>
+        <a class="toolbar-toggle" href="#account">
+          <i class="material-icons person"></i>
+        </a>
+        <a class="toolbar-toggle" href="#cart">
+          <i><span class="material-icons shopping_basket"></span><span class="count">3</span></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <!-- 功能選單及工具列 end -->
+
+  <section class="hero-slider">
+    <div class="owl-carousel large-controls dots-inside pb-4"
+      data-owl-carousel="{ &quot;nav&quot;: true, &quot;dots&quot;: true, &quot;loop&quot;: true, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 8000 }">
+      <img src="https://www.ikea.com.tw/dairyfarm/tw/uploader/image/1641262988_383.png" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+      <img src="https://www.ikea.com.tw/dairyfarm/tw/uploader/image/1642070747_290.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+      <img src="https://www.ikea.com.tw/dairyfarm/tw/uploader/image/1643267958_528.png" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+    </div>
+  </section>
+
+  <!-- 商品列表 start  -->
+  <div class="page-title" id="#shoppingList">
+    <div class="container">
+      <h1>商品清單</h1>
+      <ul class="breadcrumbs">
+        <li><a>主頁</a>
+        </li>
+        <li class="separator">&nbsp;/&nbsp;</li>
+        <li>商品列表</li>
+      </ul>
+    </div>
+  </div>
+  <section class="container-fluid padding-top-3x pb-5">
+    <h3 class="text-center mb-30">範例商品</h3>
+    <div class="row">
+      <!-- 特色商品 -->
+      <div class="col-xl-3 col-md-4">
+        <div class="card pt-3 pb-2 mb-30">
+          <div class="card-body text-center">
+            <h2>特色商品<span class='text-danger'>-30%</span></h2><a class="d-inline-block"><img
+                src="img/sampleshop/lamp01.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除"></a>
+            <h3 class="h5 text-normal pt-3"><a class="navi-link">不鏽鋼檯燈</a></h3>
+            <del class="lead text-muted mr-2">$800.00</del><span class="h4 text-danger">$560.00</span>
+            <div class="mt-4">
+              <div class="countdown countdown-alt" data-date-time="12/30/2019 12:00:00">
+                <div class="item">
+                  <div class="days">00</div><span class="days_ref">天</span>
+                </div>
+                <div class="item">
+                  <div class="hours">00</div><span class="hours_ref">小時</span>
+                </div>
+                <div class="item">
+                  <div class="minutes">00</div><span class="minutes_ref">分鐘</span>
+                </div>
+                <div class="item">
+                  <div class="seconds">00</div><span class="seconds_ref">秒</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fetured Products-->
+      <div class="col-xl-9 col-md-8">
+        <div class="row">
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"> <span class="product-badge text-danger">特價</span><a
+                  class="product-card-link"></a><img src="img/sampleshop/chair.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="0" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="0" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>餐椅,紅色</a></h3>
+                <h4 class="product-card-price">
+                  <del>$49.00</del>$38.00
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><a class="product-card-link"></a><img src="img/sampleshop/chandelier.jpg"
+                  alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="1" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="1" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>吊燈罩,黑色</a></h3>
+                <h4 class="product-card-price">$1420.00</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><span class="product-rating text-warning"><i
+                    class="material-icons star"></i><i class="material-icons star"></i><i
+                    class="material-icons star"></i><i class="material-icons star_half"></i><i
+                    class="material-icons star_border"></i></span><a class="product-card-link"></a><img
+                  src="img/sampleshop/gamechair.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="2" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="2" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>電競椅,米色</a></h3>
+                <h4 class="product-card-price">$75.00</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><span class="product-badge text-muted">售罄</span><a
+                  class="product-card-link"></a><img src="img/sampleshop/plate.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <!-- <button class="detail btn btn-white btn-sm" data-toggle="tooltip" title="明細"><i class="material-icons remove_red_eye"></i></button><a class="btn btn-white btn-sm" hre="#">看更多</a> -->
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>瀝水餃子盤,紅色/花</a></h3>
+                <h4 class="product-card-price">$130.00</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><a class="product-card-link"></a><img src="img/sampleshop/Sidetable.jpg"
+                  alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="3" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="3" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>邊桌,原木色</a></h3>
+                <h4 class="product-card-price">$1087.00</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><span class="product-rating text-warning"><i
+                    class="material-icons star"></i><i class="material-icons star"></i><i
+                    class="material-icons star"></i><i class="material-icons star"></i><i
+                    class="material-icons star_border"></i></span><a class="product-card-link"></a><img
+                  src="img/sampleshop/squarepillow.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="4" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="4" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>方枕,圓形 彩色</a></h3>
+                <h4 class="product-card-price">$76.40</h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"> <span class="product-badge text-danger">特價</span><a
+                  class="product-card-link"></a><img src="img/sampleshop/tablelamp.jpg" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="5" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="5" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>桌燈,米色/黑色</a></h3>
+                <h4 class="product-card-price">
+                  <del>$54.00</del>$27.00
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="col-xl-3 col-lg-4 col-sm-6">
+            <div class="product-card mb-30">
+              <div class="product-card-thumb"><a class="product-card-link"></a><img src="img/sampleshop/Waterbottle.jpg"
+                  alt="僅作練習使用,如有侵權請告知,會立即刪除">
+                <div class="product-card-buttons">
+                  <button class="detail btn btn-white btn-sm" data-toggle="tooltip" data-detail-id="6" title="明細"><i
+                      class="material-icons remove_red_eye"></i></button>
+                  <button class="btn btn-primary btn-sm" data-toast data-shopping-id="6" data-toast-type="success"
+                    data-toast-position="topRight" data-toast-icon="material-icons check" data-toast-title="Product"
+                    data-toast-message="successfuly added to cart!">加入購物車</button>
+                </div>
+              </div>
+              <div class="product-card-details">
+                <h3 class="product-card-title"><a>水瓶,不鏽鋼/黃色</a></h3>
+                <h4 class="product-card-price">$329.00</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 商品列表 end  -->
+
+  <!-- 購物車 start -->
+  <div class="page-title" id="cartList">
+    <div class="container">
+      <h1>購物車</h1>
+      <ul class="breadcrumbs">
+        <li><a>主頁</a>
+        </li>
+        <li class="separator">&nbsp;/&nbsp;</li>
+        <li>購物車</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container padding-bottom-3x mb-1">
+    <!-- Shopping Cart-->
+    <div class="table-responsive shopping-cart">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>商品名稱</th>
+            <th class="text-center">數量</th>
+            <th class="text-center"><a id="clearCartBtn" class="btn btn-sm btn-outline-danger">清除購物車</a></th>
+          </tr>
+        </thead>
+        <tbody id="shoppingCartTbody">
+        </tbody>
+      </table>
+    </div>
+    <div class="shopping-cart-footer">
+      <div class="column">
+        <form class="coupon-form" method="post">
+          <input class="form-control form-control-sm" type="text" placeholder="折扣碼" required>
+          <button class="btn btn-outline-primary btn-sm" type="submit">使用折扣碼</button>
+        </form>
+      </div>
+      <div class="column text-lg">總計: <span class="text-medium text-dark" id="subTotalInCart"></span></div>
+    </div>
+    <div class="shopping-cart-footer">
+      <div class="column"><a class="btn btn-outline-secondary" href="#shoppingList"><i
+            class="icon-arrow-left"></i>&nbsp;回到商品列表</a></div>
+      <div class="column"><a id="checkoutBtn" class="btn btn-success" href="#orderInfo">確認結帳</a></div>
+    </div>
+  </div>
+  <!-- 購物車 end -->
+
+  <!-- 訂單填寫 start -->
+  <div class="page-title" id="orderInfo">
+    <div class="container">
+      <h1>訂單填寫</h1>
+      <ul class="breadcrumbs">
+        <li><a>主頁</a>
+        </li>
+        <li class="separator">&nbsp;/&nbsp;</li>
+        <li>結帳 - 訂單資訊</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container padding-bottom-3x mb-2">
+    <div class="row">
+      <!-- Checkout Address-->
+      <div class="col-xl-9 col-lg-8">
+        <div class="steps flex-sm-nowrap mb-5">
+          <a class="step active">
+            <h4 class="step-title">1. 訂單資訊</h4>
+          </a>
+        </div>
+        <h4>訂單收件人</h4>
+        <hr class="padding-bottom-1x">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="checkout-fn">名</label>
+              <input class="form-control" type="text" id="checkout-fn">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label for="checkout-ln">姓</label>
+              <input class="form-control" type="text" id="checkout-ln">
+            </div>
+          </div>
+        </div>
+        <hr class="padding-bottom-1x">
+        <div class="d-flex justify-content-between">
+          <a class="btn btn-outline-secondary m-0" href="#cartList">回到購物車</a>
+          <a id="continueBtn" class="btn btn-primary m-0" href="#finish">繼續結帳</a>
+        </div>
+      </div>
+      <!-- Sidebar          -->
+      <div class="col-xl-3 col-lg-4">
+        <aside class="sidebar">
+          <div class="padding-top-2x hidden-lg-up"></div>
+          <!-- Order Summary Widget-->
+          <section class="widget widget-order-summary bg-secondary border-0 p-4">
+            <h3 class="widget-title">訂單總計</h3>
+            <table class="table text-sm mb-0">
+              <tr>
+                <td>商品金額:</td>
+                <td class="text-medium" id="subTotalInOrder"></td>
+              </tr>
+              <tr>
+                <td>物流費用:</td>
+                <td class="text-medium">$20</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td class="text-lg text-medium" id="totalInOrder"></td>
+              </tr>
+            </table>
+          </section>
+          <!-- Featured Products Widget-->
+          <section class="widget widget-featured-products border-0">
+            <h3 class="widget-title">最近看過</h3>
+            <!-- Entry-->
+            <div class="entry">
+              <div class="entry-thumb"><a><img src="img/shop/widget/01.png" alt="僅作練習使用,如有侵權請告知,會立即刪除"></a>
+              </div>
+              <div class="entry-content">
+                <h4 class="entry-title"><a>Max Task Chair</a></h4><span class="entry-meta">$299.00</span>
+              </div>
+            </div>
+            <!-- Entry-->
+            <div class="entry">
+              <div class="entry-thumb"><a><img src="img/shop/widget/02.png" alt="僅作練習使用,如有侵權請告知,會立即刪除"></a>
+              </div>
+              <div class="entry-content">
+                <h4 class="entry-title"><a>Drawer File Cabinet</a></h4><span class="entry-meta">$265.00</span>
+              </div>
+            </div>
+            <!-- Entry-->
+            <div class="entry">
+              <div class="entry-thumb"><a><img src="img/shop/widget/03.png" alt="僅作練習使用,如有侵權請告知,會立即刪除"></a>
+              </div>
+              <div class="entry-content">
+                <h4 class="entry-title"><a>Campfire Paper Table</a></h4><span class="entry-meta">$570.00</span>
+              </div>
+            </div>
+          </section>
+          <!-- Promo Banner-->
+          <div class="fw-section mt-1 px-4 py-5 text-center" style="background-image: url(img/banners/alert-bg.jpg);">
+            <h3 class="text-white">Check our <br><span class='text-bold'>Latest Offers.</span><br> Save up to <span
+                class='text-bold'>50%</span></h3><a class="btn btn-primary btn-sm">View Offers</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <!-- 訂單填寫 end -->
+
+  <!-- 結帳完成 start -->
+  <div class="page-title" id="finish">
+    <div class="container">
+      <h1>訂單完成</h1>
+      <ul class="breadcrumbs">
+        <li><a>主頁</a>
+        </li>
+        <li class="separator">&nbsp;/&nbsp;</li>
+        <li>結帳 - 完成</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container padding-bottom-3x mb-2">
+    <div class="card text-center border-default">
+      <div class="card-body padding-top-2x">
+        <h3 class="card-title mb-4">感謝您的購買!</h3>
+        <p class="text-sm mb-2">您的訂單編號: <span class="text-medium" id="orderId"></span></p>
+        <p class="text-sm mb-2">將在3個工作天內出貨!</p>
+        <div class="padding-top-1x padding-bottom-1x"><a class="btn btn-outline-secondary">
+            回到商品首頁</a><a class="btn btn-outline-primary"><i class="material-icons my_location"></i>&nbsp;追蹤訂單</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- 結帳完成 end -->
+
+  <!-- 頁尾 start -->
+  <footer class="site-footer">
+    <div class="column text-center">
+      <p class="text-sm mb-4">聯絡我們:<span class="text-primary">&nbsp;0800-000-321</span></p><a
+        class="social-button sb-skype" href="#" data-toggle="tooltip" data-placement="top" title="Skype"><i
+          class="socicon-skype"></i></a><a class="social-button sb-facebook" href="#" data-toggle="tooltip"
+        data-placement="top" title="Facebook"><i class="socicon-facebook"></i></a><a
+        class="social-button sb-google-plus" href="#" data-toggle="tooltip" data-placement="top" title="Google +"><i
+          class="socicon-googleplus"></i></a><a class="social-button sb-twitter" href="#" data-toggle="tooltip"
+        data-placement="top" title="Twitter"><i class="socicon-twitter"></i></a><a class="social-button sb-instagram"
+        href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="socicon-instagram"></i></a>
+    </div>
+    <div class="column">
+      <h3 class="widget-title text-center">訂閱<small>接收最新消息及優惠</small></h3>
+      <form class="subscribe-form input-group"
+        action="//rokaux.us12.list-manage.com/subscribe/post?u=c7103e2c981361a6639545bd5&amp;id=1194bb7544"
+        method="post" target="_blank" novalidate><span class="input-group-btn">
+          <button type="submit"><i class="material-icons send"></i></button></span>
+        <input class="form-control" type="email" name="EMAIL" placeholder="輸入信箱">
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_c7103e2c981361a6639545bd5_1194bb7544" tabindex="-1" value>
+        </div>
+      </form>
+    </div>
+    <div class="column">
+      <h3 class="widget-title text-center">付款方式<small>可使用電子支付或新用卡付款</small>
+      </h3>
+      <div class="footer-cards"><img src="img/cards.png" alt="僅作練習使用,如有侵權請告知,會立即刪除">
+      </div>
+    </div>
+  </footer>
+  <!-- 頁尾 end -->
+  <script src="./js/vendor.min.js"></script>
+
+  <!-- 自定義 Javascript 區塊 start -->
+  <script type="module" src="./js/script.js"></script>
+  <!-- 自定義 Javascript 區塊 end -->
+
+</body>
+
+</html>
